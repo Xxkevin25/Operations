@@ -1,8 +1,0 @@
-//Algo increible :/, tal cual hermano
-
-std::ostream& operator<< (std::ostream& out, const Time& time){
-    out << time.hour << ":" << time.minute << ":" << time.second << endl;
-}
-
-//operation overloading
-
