@@ -126,6 +126,7 @@ nav a {
     border: 1px solid var(--main-color);
     /* border: solid red ; */
     padding: 0 5px 10px 5px;
+    border-radius: 5px;
 }
 
 .squareRoot {
