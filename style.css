@@ -128,7 +128,7 @@ nav a {
     padding: 0 5px 10px 5px;
 }
 
-.squareRoot{
+.squareRoot {
     color: var(--main-color);
     font-weight: bolder;
     /* border: 1px solid red; */
@@ -136,7 +136,7 @@ nav a {
     /* padding: 0 5px 10px 5px; */
 }
 
-.squareRoot span{
+.squareRoot span {
     display: flex;
     align-items: center;
 }
@@ -150,8 +150,81 @@ nav a {
 .sum_fuction {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 7px;
 }
+
+.fractions_content {
+    height: min-content;
+    /* border: 1px solid red; */
+}
+
+.main_frac_cont {
+    display: flex;
+    /* border: 2px solid blue; */
+    padding: 10px;
+}
+
+/* .frac_sub{
+    border: solid green !important;
+} */
+
+.frac_sub_cont {
+    /* border: solid blue; */
+    display: flex;
+    gap: 20px;
+    /* height: min-content; */
+    align-items: center;
+    /* justify-content: center; */
+}
+
+label{
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+
+.submission_frac {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+
+
+
+
+.contOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 15px; */
+    gap: 10px;
+    /* padding: 20px; */
+    /* border: solid red; */
+}
+
+.fractions_content .frac_signo {
+    /* padding: 0; */
+    /* height: 10px; */
+    margin: 0 5px;
+    height: min-content;
+}
+
+
+.select_frac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contOne hr {
+    width: 45px;
+    border: 1px solid var(--main-color);
+    margin: 0;
+    padding: 0;
+}
+
 
 .sum_fuction input {
     padding: 6px 0;
@@ -166,7 +239,7 @@ nav a {
 }
 
 .sum_fuction .signo {
-    width: 40px;
+    width: 45px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -226,10 +299,11 @@ nav a {
 
     }
 
-    .operation_sec .basic_operation{
+    .operation_sec .basic_operation {
         font-size: large;
     }
-/* 
+
+    /* 
     nav .logo img {
         width: 45px;
     }
@@ -271,6 +345,7 @@ nav a {
         padding: 10px;
 
     }
+
     .sum_fuction input {
         padding: 3px 0;
         width: 25px;
@@ -303,7 +378,8 @@ nav a {
         display: flex;
         align-items: center;
     }
-    .sum_fuction .root_text{
+
+    .sum_fuction .root_text {
         /* display: flex; */
         text-align: center;
         /* border: solid black; */

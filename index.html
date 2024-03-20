@@ -60,16 +60,16 @@
                 <h1>Basic Operation</h1>
             </div>
             <div class="sum_fuction">
-                <input id="num1" type="text">
+                <input id="num1" type="text" placeholder="2">
                 <select class="signo" name="Signos" id="sign">
                     <option value="+">+</option>
                     <option value="-">-</option>
                     <option value="*">x</option>
                     <option value="/">÷</option>
-                    <option value="%">%</option>
+                    <!-- <option value="%">%</option> -->
                 </select>
-                <input id="num2" type="text">
-                <button id="submit" onclick="getValueAndEnviar()">=</button>
+                <input id="num2" type="text" placeholder="2">
+                <button id="submit" onclick="BasicOperation()">=</button>
                 <span class="result" id="result"></span>
             </div>
         </div>
@@ -79,34 +79,74 @@
             </div>
             <div class="sum_fuction">
                 <span class="root_text">Square Root of</span>
-                <input id="num_Root" type="text">
+                <input id="num_Root" type="text" placeholder="36">
                 <button id="submit" onclick="SquareRoot()">=</button>
                 <span class="result" id="resultRoot"></span>
             </div>
         </div>
+
+
+
+
         <div class="basic_operation ">
             <div class="title">
-                <h1>Sum</h1>
+                <h1>Quadratic Formula</h1>
             </div>
             <div class="sum_fuction">
-                <input id="num1" type="text">
-                <input id="sign" type="text">
-                <input id="num2" type="text">
-                <button id="submit" onclick="getValueAndEnviar()">=</button>
-                <span class="result" id="result"></span>
+                <input id="A" type="text" placeholder="A">
+                <input id="B" type="text" placeholder="B">
+                <input id="C" type="text" placeholder="C">
+                <button id="submit" onclick="QuadraticFormula()">=</button>
+                <span class="result" id="resultCuadratic"></span>
             </div>
         </div>
         <div class="basic_operation ">
             <div class="title">
-                <h1>Sum</h1>
+                <h1>Fractions</h1>
             </div>
-            <div class="sum_fuction">
-                <input id="num1" type="text">
-                <input id="sign" type="text">
-                <input id="num2" type="text">
-                <button id="submit" onclick="getValueAndEnviar()">=</button>
-                <span class="result" id="result"></span>
+
+            <div class="sum_fuction fractions_content">
+
+                <div class="main_frac_cont">
+
+                    <div class="frac_cont contOne">
+                        <input class="frac_num_one" id="Fnum1" type="text" placeholder="1">
+                        <hr>
+                        <input id="Fnum2" type="text" placeholder="2">
+                    </div>
+
+                    <div class="select_frac">
+
+                        <select class="signo frac_signo" name="Signos" id="key">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">x</option>
+                            <option value="/">÷</option>
+                            <!-- <option value="%">%</option> -->
+                        </select>
+
+                    </div>
+
+                    <div class="frac_cont contOne">
+                        <input class="frac_num_one" id="Fnum3" type="text" placeholder="1">
+                        <hr>
+                        <input id="Fnum4" type="text" placeholder="2">
+                    </div>
+
+                </div>
+
+                <div class="submission_frac">
+                    <button class="frac_sub" id="submit" onclick="FractionsSubmission()">=</button>
+
+                    <div class="frac_cont contOne">
+                        <label class="frac_num_one" id="Frac_resultOne" type="text" placeholder="1"></label>
+                        <hr>
+                        <label id="Frac_resultTwo" type="text" placeholder="2"></label>
+                    </div>
+                </div>
             </div>
+
+
         </div>
         <div class="basic_operation ">
             <div class="title">
